@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mariadb-cm
+  namespace: user10
+data:
+  DB_URL: "jdbc:mysql://mariadb.db:3306/user10"
+  DB_USER: kosta
