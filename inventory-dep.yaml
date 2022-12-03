@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: inventory
-          image: zasmin/kosta10
+          image: 855607364597.dkr.ecr.ap-northeast-2.amazonaws.com/inventory:22
           envFrom:
             - configMapRef:
                 name: mariadb-cm
